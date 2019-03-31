@@ -17,7 +17,7 @@
     "next": "^8.0.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "solc": "^0.5.7",
+    "solc": "^0.4.25",
     "truffle-hdwallet-provider": "^1.0.6",
     "web3": "^0.20.7"
   }
