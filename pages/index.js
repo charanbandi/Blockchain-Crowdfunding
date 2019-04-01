@@ -36,6 +36,15 @@ class Lottery extends Component{
       this.setState({message: "You have been added to the lottery"});
     }
 
+onClick = async () =>{
+  this.setState({message : "PLease Wait ....."});
+  const accounts = await web3.eth.getAccounts();
+  const winner = await lottery.methods.pickWinner().send({
+    from : accounts[0]
+  });
+  this.setState({message : "Payment sent to Winner"});
+}
+
   render(){
     return(
       <div>
@@ -48,7 +57,7 @@ class Lottery extends Component{
       <hr /><br /><hr />
       <p> The manager of the the Lottery Decentralized App is {this.state.manager}</p>
       <p> The address of the Deployed Contract is 0x0B09eD41f2D62d1b08447B0B02329D2A9dD3Bb79 </p>
-      <button> Pick Winner </button>
+      <button onClick={this.onClick}> Pick Winner </button>
       </div>
     )
   }
