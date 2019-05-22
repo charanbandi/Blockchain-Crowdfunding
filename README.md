@@ -3,7 +3,6 @@
 Among the various applications of BlockChain, optimizing lottery is one of the urgent needs to ensure their fairness and transparency. The emerging blockchain technology shows a glimpse of solutions to fairness and transparency issues faced by lottery industries. Here we present the design of a blockchain-based lottery system. We adopt the smart contracts of blockchain technology and the cryptograph blockchain model. Fairness, transparency, and privacy of the proposed blockchain-based lottery system is shown.
 
 ## Application Workflow Diagram
-<br />
 ![](images/web%203.0.png)
 
 ## Featured technologies
@@ -14,7 +13,7 @@ Among the various applications of BlockChain, optimizing lottery is one of the u
   ![](images/Screenshot_3.png)
   <br />
   
-### *]Remix IDE (https://remix.ethereum.org/)<br />
+### *Remix IDE (https://remix.ethereum.org/)<br />
   Remix is a powerful, open source tool that helps you write Solidity contracts straight from the browser.<br />
   ![](images/Screenshot_18.png)
   <br />
