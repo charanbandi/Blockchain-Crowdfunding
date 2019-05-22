@@ -7,6 +7,7 @@ Among the various applications of BlockChain, optimizing lottery is one of the u
 
 ## Featured technologies
 <br />
+
 ### *Node JS (https://nodejs.org/en/)<br />
   Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.<br />
   ![](images/Screenshot_3.png)
