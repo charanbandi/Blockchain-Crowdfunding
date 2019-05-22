@@ -35,7 +35,7 @@ Among the various applications of BlockChain, optimizing lottery is one of the u
 
 
 ## Steps
-<br />
+
 ### *NPM run<br />
 ![](images/Screenshot_2.png)
 <br />
