@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^8.0.3",
+    "next": "^13.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "solc": "^0.4.25",
